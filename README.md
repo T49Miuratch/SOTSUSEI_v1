@@ -42,6 +42,29 @@ source .bash_profile  #カレントディレクトリにある.bash_profile設�
 history  #これまで実行してきたコマンドの履歴を表示する
 history -c  #これまで実行してきたコマンドの履歴を消去する
 
+バージョン確認
+php -v
+composer -v
+git -v
+
+ララベルインストール
+$ composer create-project laravel/laravel sotsusei-laravel
+
+# Laravel インストールまでの流れ
+
+1. GitHubで新規リポジトリを作成
+2. リポジトリのmain ブランチから[Code]ボタン - [Open With Codespaces]を押してcodespacesを作成
+3. $ composer create-project laravel/laravel sotsusei-laravel をRunさせる
+4. cd ~~ で、インストールをしたフォルダに移動。この場合は「sotsusei-laravel」になる
+5. sotsusei-laravel　で、ls -lを実行し、artisanフォルダがあることを確認
+6. php artisan serve を実行
+7. Server running on [http://127.0.0.1:xxxx]のURLか、ポップアップの「ブラウザで開く」をクリックして実行テストgit status
+8.
+9.
+10.
+
+
+
 # Laravel関連参考URL
 
 CodespaceでLaravelの参考URL
