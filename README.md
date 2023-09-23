@@ -58,14 +58,20 @@ $ composer create-project laravel/laravel sotsusei-laravel
 4. cd ~~ で、インストールをしたフォルダに移動。この場合は「sotsusei-laravel」になる
 5. sotsusei-laravel　で、ls -lを実行し、artisanフォルダがあることを確認
 6. php artisan serve を実行
-7. Server running on [http://127.0.0.1:xxxx]のURLか、ポップアップの「ブラウザで開く」をクリックして実行テストgit status
+7. Server running on [http://127.0.0.1:xxxx]のURLか、ポップアップの「ブラウザで開く」をクリックして実行テスト
 8.
 9.
 10.
 
+# さくらインターネット関連参考URL
+
+さくらのレンタルサーバでLaravelを動かす方法
+https://knowledge.sakura.ad.jp/35587/?amp=1
 
 
 # Laravel関連参考URL
+
+
 
 CodespaceでLaravelの参考URL
 
