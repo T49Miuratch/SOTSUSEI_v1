@@ -59,9 +59,7 @@ $ composer create-project laravel/laravel sotsusei-laravel
 5. sotsusei-laravel　で、ls -lを実行し、artisanフォルダがあることを確認
 6. php artisan serve を実行
 7. Server running on [http://127.0.0.1:xxxx]のURLか、ポップアップの「ブラウザで開く」をクリックして実行テスト
-8.
-9.
-10.
+8. 開かないことが続き、codespacesではなくVSCODEで開くを選んで開いてからphp artisan serve を実行したら開いた  
 
 # さくらインターネット関連参考URL
 
